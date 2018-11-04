@@ -1,0 +1,18 @@
+<!--miniprogram/pages/addFoods/addFoods.wxml-->
+<view class="addFoods">
+  <view>添加饭饭：</view>
+  <br/>
+  <view class="add_inputs">
+  <form bindsubmit="doAddFoods">
+  <view class="section">
+    <input name="name" placeholder="添加你爱吃的饭饭" />
+    <br/>
+    <input name="description" placeholder="饭饭的描述" />
+  </view>
+  
+  <view class="btn-area">
+    <button formType="submit">Submit</button>
+  </view>
+</form>
+  </view>
+</view>
